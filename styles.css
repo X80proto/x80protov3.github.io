@@ -11,13 +11,11 @@ body
 
      background-color:#181a1b; 
 
-     color:rgb(212, 212, 212);
+     color:rgb(230, 230, 230);
 
-     font-family: "Yu Gothic", sans-serif; 
+     font-family: Arial, Helvetica, sans-serif; 
 
      font-size: 18px; 
-
-     font-weight: normal;
 
      text-align: center; 
 
@@ -54,11 +52,12 @@ img
 { 
     display: block;
     width: 100%;
-    min-width: 50px;
-    max-width: 700px; /*actual image width*/
-    height: auto; /* set to auto to maintain aspect ratio when resizing*/
-    margin: auto; /*optional centering of image*/ 
+    height: 45%;
+    margin-left: auto;
+    margin-right: auto;
+
     border: double 10px rgb(109, 109, 109); 
+
 }
 
 h5{color:#d5015b}
